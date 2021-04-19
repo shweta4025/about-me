@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body,html,.container{
+    color:white;
+    font-family:'lato',sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    min-height: 150vh; 
+}
+.container{
+    margin: 20px 0px;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.center .avatar img{
+    border-radius: 50%;
+    width:190px;
+    height:190px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+
+.center{
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /*height:80vh;*/
+    text-align: center;
+    border-radius: 5px;
+    
+    
+    
+}
+/*.content{
+    padding: 30px;
+}*/
+
+h1{
+    color: white;
+}
+.content p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 10px 0px ;
+    
+
+}
+
+.social{
+    padding: 0 10px;
+    font-size: 30px;
+    color: rgba(255, 255,255,0.6);
+    transition: 0.4s;
+}
+
+.social i:hover{
+    color: rgba(255,255,255,1);
+}
+.links{
+    text-decoration: none;
+    color: rgb(191, 191, 245)
+}
+
+.links:hover{
+    color:rgb(124, 124, 236);
+}
+
+.contact{
+    width:70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /*height:80vh;*/
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.fa{
+    padding:20px;
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity:0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
